@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple Interest Calculator</title>
+    <link rel="stylesheet" href="interest.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+  <body style = "background-color: #eb3434">
+    <div class="container-fluid">
+
+      <div class="row mt-5">
+        <div class="col-12 mx-auto mb-3">
+          <h1 class = "text-center" style = "font-size: 200%">SIMPLE INTEREST CALCULATOR</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-10 col-sm-6 col-lg-4 border rounded-lg border-dark mx-auto">
+          <div class="form-container py-4">
+            <div class="form-group ">
+              <label for="Principal">Principal:</label>
+              <input type="text" name="" value="" class = "form-control" id = "principal">
+            </div>
+            <div class="form-group">
+              <label for="Rate">Rate:</label>
+              <input type="text" name="" value="" class = "form-control" id = "rate">
+            </div>
+            <div class="form-group">
+              <label for="Time">Time:</label>
+              <input type="text" name="" value="" class = "form-control" id = "time">
+            </div>
+            <button type="button" name="button" class = "btn-sm btn-primary btn-lg mb-4 float-right btn-block" id = "calc">Calculate</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-2" id = "resultRow" style = "display: none">
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto ml-0 p-0">
+          <h3 id = "result"style = "font-weight: 400; font-size: 160%;"></h3>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src = "interest.js">
+
+  </script>
+</html>
